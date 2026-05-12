@@ -1,3 +1,9 @@
+# Qiao's Skills
+
+This repository is forked from [Anthony Fu's Skills](https://github.com/antfu/skills), with added [code-review](https://github.com/awesome-skills/code-review-skill) skills and the **yxzn component library** skills.
+Additionally, a new coding standard has been added, which can be appended to ANGENT.md or CLAUDE.md. **See Coding Practices** for details.
+
+
 # Anthony Fu's Skills
 
 A curated collection of [Agent Skills](https://agentskills.io/home) reflecting [Anthony Fu](https://github.com/antfu)'s preferences, experience, and best practices, along with usage documentation for the tools.
@@ -8,21 +14,22 @@ A curated collection of [Agent Skills](https://agentskills.io/home) reflecting [
 
 ## Installation
 
+
 ```bash
-pnpx skills add antfu/skills --skill='*'
+pnpx skills add qiaozhu/skills --skill='*'
 ```
 
 or to install all of them globally:
 
 ```bash
-pnpx skills add antfu/skills --skill='*' -g
+pnpx skills add qiaozhu/skills --skill='*' -g
 ```
 
 
 ## Coding Practices
 | 内容 | 说明 |
 |-------|-------------|
-| [`CODING_PRACTICES.md`](CODING_PRACTICES.md) | Karpathy 行为准则 + antfu「Coding Practices」节选；**复制全文**到业务项目 `AGENTS.md` / `CLAUDE.md` 顶部（非 Agent Skill） |
+| [`CODING_PRACTICES.md`](CODING_PRACTICES.md) | [Karpathy's](https://github.com/forrestchang/andrej-karpathy-skills) Code of Conduct + [antfu's](https://github.com/antfu/skills) "Coding Practices"; this is not a skill, it is recommended to copy the full text into the business project's AGENTS.md / CLAUDE.md. Or import it using @ at the top. |
 
 ### Install
 
@@ -49,6 +56,10 @@ This collection is aim to be a one-stop collection of you are mainly working on 
 ### Hand-maintained Skills
 
 > Opinionated
+
+| Skill | Description | Source |
+|-------|-------------|--------|
+| [yxzn-lib](https://github.com/qiaozhu/yxzn-skills) | Skills in building a component library based on element-plus secondary encapsulation | [Element Plus](https://element-plus.org/) |
 
 Maintained manually in-repo (fork-specific), e.g. **`yxzn`** under `skills/`.
 
