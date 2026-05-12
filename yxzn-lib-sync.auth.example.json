@@ -1,0 +1,5 @@
+{
+  "repositoryUrl": "https://你的-git-主机/命名空间/yxzn-lib",
+  "username": "GitLab 用户名或 deploy token 的 username",
+  "password": "密码或个人访问令牌（推荐 token）"
+}

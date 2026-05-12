@@ -1,5 +1,7 @@
 .cache
 .DS_Store
+# yxzn-lib 同步脚本 HTTP 凭据（勿提交）
+yxzn-lib-sync.auth.json
 .idea
 *.log
 *.tgz

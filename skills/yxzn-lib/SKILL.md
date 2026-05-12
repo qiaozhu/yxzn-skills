@@ -1,7 +1,8 @@
 ---
 name: yxzn
 description: >-
-  基于ElementPlus二次开发的组件库。使用 @yxzn 组件库生态开发业务页面的规范与写法。包含 EzTable、EzDescriptions、EzUpload 等 Element Plus 封装组件，以及 useTable、useDate、createAxios 等 composable，@yxzn/utils、@yxzn/validator、
+  使用 @yxzn 组件库生态开发业务页面的规范与写法。包含 EzTable、EzDescriptions、EzUpload 等 Element Plus
+  封装组件，以及 useTable、useDate、createAxios 等 composable，@yxzn/utils、@yxzn/validator、
   @yxzn/filter、@yxzn/calc、@yxzn/directive 工具包。开发列表页、详情页、表单页时必须遵循本规范。
 metadata:
   version: "1.0.0"

@@ -5,6 +5,7 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node scripts/cli.ts",
+    "sync:yxzn-lib": "node scripts/sync-yxzn-lib.ts",
     "prepare": "simple-git-hooks && git submodule update --init --recursive && node scripts/hint-coding.ts"
   },
   "devDependencies": {
