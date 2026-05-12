@@ -1,5 +1,5 @@
 ---
-name: yxzn
+name: yxzn-lib
 description: >-
   使用 @yxzn 组件库生态开发业务页面的规范与写法。包含 EzTable、EzDescriptions、EzUpload 等 Element Plus
   封装组件，以及 useTable、useDate、createAxios 等 composable，@yxzn/utils、@yxzn/validator、
