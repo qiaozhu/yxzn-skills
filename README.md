@@ -35,7 +35,7 @@ pnpx skills add qiaozhu/skills --skill='*' -g
 
 Download:
 ```bash
-curl -o CODING_PRACTICES.md https://github.com/qiaozhu/yxzn-skills.git/master/CODING_PRACTICES.md
+curl -o CODING_PRACTICES.md curl -o CODING_PRACTICES.md https://raw.githubusercontent.com/qiaozhu/skills/master/CODING_PRACTICES.md
 ```
 
 Append to AGENTS.md or CLAUDE.md:
@@ -61,7 +61,7 @@ Maintained manually in-repo (fork-specific), e.g. **`yxzn-lib`** under `skills/`
 
 | Skill | Description | Source |
 |-------|-------------|--------|
-| [yxzn-lib](https://github.com/qiaozhu/yxzn-skills) | Skills in building a component library based on element-plus secondary encapsulation | [Element Plus](https://element-plus.org/) |
+| [yxzn-lib](https://github.com/qiaozhu/skills) | Skills in building a component library based on element-plus secondary encapsulation | [Element Plus](https://element-plus.org/) |
 
 
 ### Skills Generated from Official Documentation

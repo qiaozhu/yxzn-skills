@@ -3,13 +3,13 @@
  */
 import process from 'node:process'
 
-const CURL_URL = 'https://github.com/qiaozhu/yxzn-skills.git/master/CODING_PRACTICES.md'
+const CURL_URL = 'https://github.com/qiaozhu/skills.git/master/CODING_PRACTICES.md'
 
 if (process.env.CI === 'true' || process.env.SKIP_CODING_PRACTICES_HINT === '1')
   process.exit(0)
 
 console.log('')
-console.log('\x1B[36m[yxzn-skills]\x1B[0m 强烈建议：将 Coding Practices 规范纳入业务仓库的 AGENTS.md / CLAUDE.md。')
+console.log('\x1B[36m[skills]\x1B[0m 强烈建议：将 Coding Practices 规范纳入业务仓库的 AGENTS.md / CLAUDE.md。')
 console.log('')
 console.log('1. Download:')
 console.log(`curl -o CODING_PRACTICES.md ${CURL_URL}`)
